@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+markdown = "*"
+jinja2 = "*"
+pyyaml = "*"
+numpy = "*"
+pandas = "*"
+graphite-paper = {git = "https://github.com/impactdistillery/graphite-paper.git"}
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sphinx-panels = "*"
+
+[requires]
+python_version = "3.8"

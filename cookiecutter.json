@@ -1,0 +1,9 @@
+{
+  "title":                  "Title of your publication",
+  "subtitle":               "Subtitle of your publication",
+  "authors":                "Author, Author, Author Name",
+  "year":                   "1970",
+  "date_publication":       "January 1970",
+  "keywords":               "keywords, separated by comma",
+  "paper_slug":             "sample-paper"
+}

@@ -1,0 +1,93 @@
+
+# PUBLICATION META INFO
+# —————————————————————
+
+title:                  {{cookiecutter.title}}
+subtitle:               {{cookiecutter.title}}
+authors:                {{cookiecutter.authors}}
+year:                   {{cookiecutter.year}}
+date_publication:       {{cookiecutter.date_publication}}
+# date_submission:
+# date_last_updated:
+
+keywords:               {{cookiecutter.keywords}}
+abstract:               "Write an abstract for your publication that will show here"
+
+cite_as:                "{{cookiecutter.authors}}. ({{cookiecutter.year}}). {{cookiecutter.title}}."
+
+pdf_url:                http://link-to-your-file.pdf
+# doi:                    10.0000/zenodo.0009999
+# isbn:                   978-989-746-128-6
+# contact_email:          your@mail.de
+
+short_url:              https://your-custom-domain/{{cookiecutter.paper_slug}}
+social_image_url:       https://your-custom-domain/{{cookiecutter.paper_slug}}/assets/images/social.png
+lang:                   en
+
+
+# PUBLICATION STYLE
+# —————————————————————
+styles:                 theme/styles/sample-journal.css
+background_url:         assets/images/header.jpg
+
+
+
+# DISCLAIMER
+# —————————————————————
+disclaimer:             ""
+data_usage:             ""
+terms_of_use:           ""
+licence:                ""
+
+# Author info is shown in footer bar and on the right, if no logo is provided.
+author_info:            Graphite – enhanced publications for a digital environment
+logo_url:
+
+
+# SETTINGS
+# —————————————————————
+
+author_info_sticky:     true
+no_journal:             true
+matomo_tracking:        false
+# matomo_url:             "https://url-to-matomo/"
+# matomo_siteId:          "pageid"
+
+
+# PUBLISHER INFO
+# thanks for mentioning graphite
+# —————————————————————
+
+brand:                  graphite – Enhanced publications for a digital environment
+brand_url:              https://www.impactdistillery.com/graphite
+brand_logo:             theme/images/graphite.svg
+
+# Infos in expandable header
+imprint:                "This is a paper created from the starter of the open source publication framework graphite, a tool for enhanced, digital publications."
+
+further_publications:
+  - label:  The Strategic Guide to Responsible Platform Business
+    url: https://graphite.page/hiig-platformalternatives/
+  - label:  Das Scholar-led.network-Manifest
+    url: https://graphite.page/scholar-led-manifest/
+  - label: Can Platforms Cancel Politicians?
+    url: https://graphite.page/gdhrnet-wp3/
+
+further_links:
+  - label: Graphite project website
+    url: https://www.impactdistillery.com/graphite
+  - label: graphite-paper on PyPI
+    url: https://pypi.org/project/graphite-paper
+
+:---------------------------------------------------:
+# TABS
+# —————————————————————
+
+tabs:
+  - title: "Article"
+    slug: index
+    include_abstract: true
+    md_container: article
+  - title: "Imprint"
+    slug: imprint
+    md_container: section
